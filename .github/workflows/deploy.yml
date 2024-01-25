@@ -15,5 +15,5 @@ jobs:
     - id: build-publish
       uses: bitovi/github-actions-react-to-github-pages@v1.2.2
       with:
-        path: ./rea # change to your build folder
+        working-directory: ./rea # path: ./rea # change to your build folder
         install_command: npm install
