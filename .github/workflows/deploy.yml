@@ -16,4 +16,4 @@ jobs:
       uses: bitovi/github-actions-react-to-github-pages@v1.2.2
       with:
         path: my-app # change to your build folder
-        install_command: npm ci
+        install_command: npm install
